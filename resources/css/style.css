@@ -1,0 +1,172 @@
+
+
+        .gradient-custom-2 {
+            /* fallback for old browsers */
+            background: orangered;
+            text-align: center;
+
+        }
+
+        @media (min-width: 768px) {
+            .gradient-form {
+                height: 100vh !important;
+                text-align: center;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .gradient-custom-2 {
+                border-top-right-radius: .3rem;
+                border-bottom-right-radius: .3rem;
+
+            }
+
+            .input-container {
+                position: relative;
+                }
+
+                input {
+                height: 48px;
+                width: 280px;
+                border: 1px solid orangered;
+                border-radius: 4px;
+                box-sizing: border-box;
+                padding: 16px;
+
+
+                }
+
+                .label {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 16px;
+                display: flex;
+                align-items: center;
+                }
+
+                .label {
+                pointer-events: none;
+                }
+                input, .label .text {
+                    font-family: 'Segoe UI';
+                    font-size: 16px;
+                    }
+
+                    input:focus {
+                    outline: none;
+                    /* border: 2px solid orangered; */
+
+                    }
+
+                    input:focus + .label .text {
+                    font-size: 12px;
+                    transform: translate(0, -50%);
+                    background-color: white;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    color: orangered;
+
+                    }
+
+                    .label .text {
+                    transition: all 0.15s ease-out;
+
+                    }
+
+
+                    input:focus + .label .text, :not(input[value=""]) + .label .text {
+                        font-size: 12px;
+                        transform: translate(0, -150%);
+                        background-color: white;
+                        padding-left: 4px;
+                        padding-right: 4px;
+
+                        }
+
+                        input:focus + .label .text {
+                        color: orangered;
+                        }
+
+                         body{
+                            background-image: url('https://media.istockphoto.com/id/508628776/photo/sunset-over-kandariya-mahadeva-temple.webp?b=1&s=170667a&w=0&k=20&c=b8XnVpyy7hDGgHpBOpXTZ581q6Xqan0IUaGKRcgZRRM=');
+
+                        }*/
+
+
+                        /* .form-control:focus{
+                            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                            border: rgba(255, 255, 255, 0);
+                            } */
+
+
+                            /* #bootstrap-overrides input[type="text"]:focus,
+                            input[type="password"]:focus,
+                            input[type="email"]:focus,
+                             input[type="url"]:focus,
+                              textarea:focus{
+  border-color: red;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+} */
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 15px;
+  margin-bottom: 11px;
+
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #d2d2d2;
+  outline: 0;
+  font-size: 16px;
+  color: #212121;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 16px;
+  cursor: text;
+  top: 20px;
+}
+
+ label,
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+ .form__field:focus ~ .form__label {
+  color: orangered;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  border-bottom: 2px solid orangered;
+}
+
+
+
+
+
+}
+
