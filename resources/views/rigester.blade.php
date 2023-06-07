@@ -102,6 +102,7 @@
 
                          body{
                             background-image: url('https://media.istockphoto.com/id/508628776/photo/sunset-over-kandariya-mahadeva-temple.webp?b=1&s=170667a&w=0&k=20&c=b8XnVpyy7hDGgHpBOpXTZ581q6Xqan0IUaGKRcgZRRM=');
+                            /* opacity: 0.6; */
 
                         }
 
@@ -233,9 +234,6 @@ input:not(:placeholder-shown) + label {
   transform: translateY(-50%) scale(.9);
 }
 
-
-
-
 }
     </style>
 </head>
@@ -261,9 +259,9 @@ input:not(:placeholder-shown) + label {
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-xl-10">
                     <div class="card rounded-3 text-black">
-                        <div class="row g-0">
+                        <div class="row g-0" style="background-color: white">
                             <div class="col-lg-6">
-                                <div class="card-body p-md-5 mx-md-4">
+                                <div class="card-body p-md-5 mx-md-4" >
 
                                         <div class="text-center">
                                         <h3 class="mt-1 mb-5 pb-1">Sign Up</h3>
@@ -328,23 +326,23 @@ input:not(:placeholder-shown) + label {
 
                                         <br> --}}<div class="container">
                                             <div class="material-textfield">
-                                                <input placeholder="text " type="text">
+                                                <input placeholder=" " type="text" required>
                                                 <label>Username</label>
                                             </div>
                                         </div><br>
                                             <div class="container">
                                             <div class="material-textfield">
-                                                <input placeholder="text" type="text">
+                                                <input placeholder=" " type="text" required>
                                                 <label>E-Mail</label>
                                             </div>
                                             </div><br>
                                             <div class="container">
                                             <div class="material-textfield">
-                                                <input placeholder="text" type="text">
+                                                <input placeholder=" " type="text" required>
                                                 <label>password</label>
                                             </div>
                                             </div>
-                                        <div class="text-center pt-1 mb-5 pb-1">
+                                        <div class="text-center pt-1 mb-5 pb-1"><br>
                                             <button
                                                 class="btn btn-dark btn-block fa-lg btn-lg gradient-custom-2 mb-3"
                                                 type="submit"
